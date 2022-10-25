@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./Img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.formulario{
+    position: absolute;
+    width: 30em;
+    height: 38em;
+    background: rgb(196, 194, 194);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 27px 23px 24px rgb(0 0 0);
+    opacity : 0.9;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    margin: 50px auto;
+}
+.container .input, .text, .date, .email, .input1 {
+    text-align: center;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    width: 30em;
+    height: 3em;
+    margin: 15px;
+    box-shadow: 13px 13px 6px rgb(0 0 0);
+}
+.aberto{
+    position:absolute;
+    width: 2em;
+    bottom: 19em;
+    right: 3.5em;
+    cursor: pointer;
+}
+.aberto1{
+    position:absolute;
+    width: 2em;
+    bottom: 14.7em;
+    right: 3.5em;
+    cursor: pointer;
+}
+.termo{
+    margin-top:1em;
+    width: 20px;
+    right: 11em;
+    position: relative;
+}
+label{
+
+    color: rgb(52, 55, 238);
+    position: relative;
+    bottom:1em;
+    font-size: 20px;
+}
+#cadastrar{
+    text-align: center;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    width: 30em;
+    height: 3em;
+    margin-bottom: 10px;
+    background-color: rgb(7, 136, 13);
+    color: #fff;
+    box-shadow: 13px 13px 6px rgb(0 0 0);
+    cursor: pointer;
+}
+#cadastrar:hover{
+    background-color: rgb(5, 100, 10);
+}
+#reset{
+    text-align: center;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    width: 30em;
+    height: 3em;
+    margin: 10px;
+    background-color: rgb(126, 21, 7);
+    color: #fff;
+    box-shadow: 13px 13px 6px rgb(0 0 0);
+    cursor: pointer;
+}
+#reset:hover{
+    background-color: rgb(85, 17, 8);
+}

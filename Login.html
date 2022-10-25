@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <form action="" class="formulario">
+           
+            <div class="container">
+                <input class="text" type="text" placeholder="Insira o seu nome" maxlength="45" required>
+
+                <input class="date" type="date" placeholder="Data de Nascimento" required>
+                <input class="email" type="email" placeholder="Insira seu e-mail" maxlength="30" required>
+
+                 <!-- AQUI COMEÇA O MEU CAMPO DE SENHA -->
+                <input class="input" type="password" placeholder="Insira sua senha" maxlength="12" required> 
+                <img class="aberto" src="./Img/aberto.png" alt="Olho aberto">
+
+        
+                <input class="input1" type="password" placeholder="Confirme sua senha " maxlength="12" required>
+                <img class="aberto1"  src="./Img/aberto.png" alt="Olho aberto">
+
+                <!-- AQUI TERMINA  O MEU CAMPO DE SENHA -->
+
+                <input  class="termo" type="checkbox" required> <label for="check"> Concorda com termo de adesão </label>
+
+                <button id="cadastrar" type="submit"> Cadastrar </button>
+                <button id="reset" type="reset"> Deletar </button>
+                       
+        </form>
+    </main>
+    <script src="./login.js"></script>
+</body>
+</html>
